@@ -1,5 +1,5 @@
 var MongoClient = require('mongodb').MongoClient;
-
+// you should put here your external ip
 var url = "mongodb://0.0.0.0:27017/test";
 
 function handleGET(req, res) {
